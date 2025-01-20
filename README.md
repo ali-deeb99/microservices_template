@@ -40,7 +40,7 @@ order_service:
 
 Database: orders table
 
-Fields: id, name, note, created_at
+Fields: id, name, note
 
 Kafka Producer: Sends name to Kafka.
 
@@ -48,20 +48,4 @@ track_users:
 
 Database: track_user table
 
-Fields: id, name, counter, created_at
-
-Kafka Consumer: Listens to events from Kafka.
-
-Apache Kafka:
-
-Topic: user_events
-
-
-
-Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+Fields: id, name, counter
